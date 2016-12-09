@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Itdelight
+ * @package     Itdelight_UnsetProdCustomOptions
+ * @author      Itdelight Team. Created by AleksLi <alex.litvinov@itdelight.com>
+ */
+ -->
+<config>
+    <modules>
+        <Itdelight_UnsetProdCustomOptions>
+            <version>0.1.0</version>
+        </Itdelight_UnsetProdCustomOptions>
+    </modules>
+    <global>
+        <helpers>
+            <itdelight_unsetprodcustomoptions>
+                <class>Itdelight_UnsetProdCustomOptions_Helper</class>
+            </itdelight_unsetprodcustomoptions>
+        </helpers>
+        <resources>
+            <itdelight_unsetprodcustomoptions_setup>
+                <setup>
+                    <module>Itdelight_UnsetProdCustomOptions</module>
+                </setup>
+            </itdelight_unsetprodcustomoptions_setup>
+        </resources>
+    </global>
+</config>
